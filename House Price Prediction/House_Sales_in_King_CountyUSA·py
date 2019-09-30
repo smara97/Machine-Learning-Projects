@@ -1,0 +1,42 @@
+# This Python 3 environment comes with many helpful analytics libraries installed
+# It is defined by the kaggle/python docker image: https://github.com/kaggle/docker-python
+# For example, here's several helpful packages to load in 
+
+import numpy as np # linear algebra
+import pandas as pd # data processing, CSV file I/O (e.g. pd.read_csv)
+import matplotlib.pyplot as plt
+from sklearn.cross_validation import train_test_split
+from sklearn.linear_model import LinearRegression
+from sklearn.metrics import mean_squared_error,r2_score 
+
+# Input data files are available in the "../input/" directory.
+# For example, running this (by clicking run or pressing Shift+Enter) will list the files in the input directory
+
+import os
+df = pd.read_csv('../input/kc_house_data.csv')
+df=df.drop(['id','date'],axis=1)
+
+y=df.price
+X=df.drop(['price'],axis=1)
+
+X_train,X_test,y_train,y_test=train_test_split(X,y,test_size=0.4,random_state=0)
+
+regressor=LinearRegression()
+regressor.fit(X_train,y_train)
+
+y_pred=regressor.predict(X_test)
+
+r2=r2_score(y_test,y_pred)
+print(r2)
+
+acutal_data=np.array(y_test)
+
+accuracy = int(regressor.score(X_train,y_train)*100)
+print('the model accuracy is %s%%'%accuracy)
+plt.figure()
+plt.plot(range(len(y_pred[0:50])), y_pred[0:50], 'r', label="predict")
+plt.plot(range(len(y_pred[0:50])), y_train[0:50], 'b', label="true value")
+plt.legend(loc="upper right")
+plt.xlabel("the number of sales")
+plt.ylabel('value of sales')
+plt.show()
