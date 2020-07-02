@@ -1,4 +1,4 @@
-## Resume Parser
+# Resume Parser
 
 
 Resume parser analyze a resume, extract the desired information, and insert the information into a database with a unique entry for each candidate. Once the resume has been analyzed, a recruiter can search the database for keywords and phrases and get a list of relevant candidates
@@ -8,30 +8,29 @@ extract information like : 	Name , college , designation , graduation , email , 
 
 Using 2 Model in training :
 
-first model – base cased Bert with spacy nlp and tokenizer of base cased bert 
-have 30 epochs of training take ~4 hours in training , have about 14 tags
- 
-achievements, address, Certifications, College, Companies, degree, Designation
-email, state, training, projects, location, university, graduation
+
+### first model – base cased Bert with spacy nlp and tokenizer of base cased bert 
+
+- Have 30 epochs of training take ~4 hours in training , have about 14 tags (achievements, address, Certifications, College, Companies, degree, Designation
+email, state, training, projects, location, university and graduation).
+
+- Training jupyter notebook file resume_spacy.ipynb
+
+
+### second model have 2 models of sapcy (Custom training of spacy in NER ) and English spacy model in nlp for NER 
+
+- Have about 11 tags (name, designation, college, email, mobile_number, experience, no_of_pages
+total_experience, skills, companies and location). 
+
+- Have 60 epochs of training take about ~5 hours .
+- Get Accuracy 92%
+
+
+- Training jupyter notebook file resume_parser_bert.ipynb
 
 
 
-training jupyter notebook file resume_spacy.ipynb
-
-
-second model 
-
-have 2 model of sapcy (Custom training of spacy in NER ) and English spacy model in nlp for NER have about 11 tags 
-name, designation, college, email, mobile_number, experience, no_of_pages
-total_experience, skills, companies, location 
-have 60 epochs of training take about ~5 hours .
-
-
-training jupyter notebook file resume_parser_bert.ipynb
-
-
-
-After trained 2 models merge them to one file : resume_parser.ipynb
+- After trained 2 models merge them to one file : resume_parser.ipynb
 
 
 
