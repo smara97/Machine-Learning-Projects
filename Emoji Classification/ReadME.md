@@ -13,4 +13,7 @@ Fine tune resnet50 Network structure model to trained on images , then using 165
 
 
 Example :
+
+
+
 ![all text](https://github.com/smara97/Machine-Learning-Projects/blob/master/Emoji%20Classification/example.png)
