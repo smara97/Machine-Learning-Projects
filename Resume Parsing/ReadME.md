@@ -54,7 +54,7 @@ input file :
 </object>
 
 output : 
-
+'''
 {'achievements': [{'name': 'in Contests'}],
  'address': [],
  'certifications': [],
@@ -115,4 +115,4 @@ output :
   {'name': 'C++'},
   {'name': 'Algorithms'}],
  'total_experience': 4.5}
-
+'''
