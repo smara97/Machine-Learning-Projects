@@ -11,3 +11,6 @@ Fine tune resnet50 Network structure model to trained on images , then using 165
 
 [Data](https://drive.google.com/open?id=1GRNJs42hYS9Z_lPvND1QY3JSDsClHjhY) (~4 Giga byte)
 
+
+Example :
+![all text](https://github.com/smara97/Machine-Learning-Projects/blob/master/Emoji%20Classification/example.png)
