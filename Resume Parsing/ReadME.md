@@ -54,6 +54,9 @@ input file :
 </object>
 
 output : 
+```json
+{'achievements': [{'name': 'in Contests'}]}
+```
 '''
 {'achievements': [{'name': 'in Contests'}],
  'address': [],
