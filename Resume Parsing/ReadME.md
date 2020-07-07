@@ -53,7 +53,7 @@ input file :
     </embed>
 </object>
 
-![alt text](https://github.com/smara97/Machine-Learning-Projects/blob/master/Resume%20Parsing/Ahmed%20Muhammad.pdf)
+[embed]https://github.com/smara97/Machine-Learning-Projects/blob/master/Resume%20Parsing/Ahmed%20Muhammad.pdf[/embed]
 
 output : 
 
