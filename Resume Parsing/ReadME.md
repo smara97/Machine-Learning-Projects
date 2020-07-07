@@ -47,6 +47,12 @@ collecting about 701 annotation Cvs : https://drive.google.com/open?id=1TCsi-VF4
 
 input file : 
 
+<object data="https://github.com/smara97/Machine-Learning-Projects/blob/master/Resume%20Parsing/Ahmed%20Muhammad.pdf" type="application/pdf" width="700px" height="700px">
+    <embed src="https://github.com/smara97/Machine-Learning-Projects/blob/master/Resume%20Parsing/Ahmed%20Muhammad.pdf">
+        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="https://github.com/smara97/Machine-Learning-Projects/blob/master/Resume%20Parsing/Ahmed%20Muhammad.pdf">Download PDF</a>.</p>
+    </embed>
+</object>
+
 ![alt text](https://github.com/smara97/Machine-Learning-Projects/blob/master/Resume%20Parsing/Ahmed%20Muhammad.pdf)
 
 output : 
