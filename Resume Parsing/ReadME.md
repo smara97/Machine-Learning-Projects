@@ -54,7 +54,7 @@ input file :
 </object>
 
 output : 
-```json
+```yaml
 {'achievements': [{'name': 'in Contests'}],
  'address': [],
  'certifications': [],
