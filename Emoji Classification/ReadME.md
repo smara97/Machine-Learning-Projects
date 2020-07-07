@@ -5,7 +5,9 @@
 - Take and collect photos with me.
 
 
-Fine tune VGG19 Network structure model to trained on images , then using 165 images to test and get ~100% acuuracy. 
+Fine tune resnet50 Network structure model to trained on images , then using 165 images to test and get ~100% acuuracy. 
+
+3 versions of notebooks , the last one (Emoji_Resnet50_v1.ipynb).
 
 Data (~4 Giga byte) : https://drive.google.com/open?id=1GRNJs42hYS9Z_lPvND1QY3JSDsClHjhY
 
