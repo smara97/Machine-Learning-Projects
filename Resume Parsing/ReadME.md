@@ -45,8 +45,9 @@ collecting about 701 annotation Cvs : https://drive.google.com/open?id=1TCsi-VF4
 
 
 
-input file : https://drive.google.com/file/d/169Ck5snjVc42exbKE8SrupPqI8LMQ88-/view?usp=sharing 
+input file : 
 
+![alt text](https://github.com/smara97/Machine-Learning-Projects/blob/master/Resume%20Parsing/Ahmed%20Muhammad.pdf)
 
 output : 
 
